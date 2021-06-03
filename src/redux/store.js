@@ -10,5 +10,6 @@ export const store = createStore(rootReducer,applyMiddleware(...middlewares));
 
 export const persistor = persistStore(store);
 
+// eslint-disable-next-line
 export default { store , persistor };
 
